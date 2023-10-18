@@ -1,0 +1,135 @@
+import {StyleSheet} from 'react-native';
+
+const style = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  backButtonContainer: {
+    position: 'absolute',
+    left: 20,
+    top: 10,
+  },
+  circleInfo: {
+    position: 'absolute',
+    right: 20,
+    top: 15,
+  },
+  headerContainer: {
+    alignItems: 'flex-start',
+  },
+  header: {
+    fontFamily: 'Poppins',
+    fontSize: 32,
+    width: 320,
+    fontWeight: 'bold',
+    color: '#333',
+    lineHeight: 45,
+    textAlign: 'left',
+  },
+  subheader: {
+    width: 350,
+    fontSize: 16,
+    fontWeight: 'normal',
+    lineHeight: 20.8,
+    paddingVertical: 5,
+  },
+  inputContainer: {
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+    justifyContent: 'space-around',
+    padding: 0,
+    width: '90%',
+  },
+  input: {
+    backgroundColor: '#fff',
+    borderWidth: 1,
+    borderRadius: 3,
+    height: 57,
+    width: 358,
+    fontFamily: 'Poppins',
+    fontSize: 16,
+    fontWeight: '500',
+    color: '#000',
+    lineHeight: 20.8,
+    // marginTop: 10,
+  },
+  labelContainer: {
+    paddingVertical: 10,
+  },
+  labelHeader: {
+    fontFamily: 'Poppins',
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#333',
+    lineHeight: 24,
+    textAlign: 'left',
+    // paddingTop: 5,
+  },
+  labelBottom: {
+    fontFamily: 'Poppins',
+    fontSize: 12,
+    fontWeight: 'normal',
+    color: '#333',
+    lineHeight: 18,
+    textAlign: 'left',
+    // paddingTop: 5,
+  },
+  radioHeaderContainer: {
+    width: 358, 
+    paddingVertical: 15
+  },
+  radioHeader: {
+    fontFamily: 'Poppins',
+    fontWeight: 'bold',
+    fontSize: 16,
+    lineHeight: 24,
+    color: '#333',
+    textAlign: 'left',
+    width: 320,
+  },
+  radioGroupContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    width: 358,
+  },
+  radioContainer: {
+    borderWidth: 1,
+    color: '#000',
+    borderRadius: 3,
+    width: 160,
+    height: 110,
+    padding: 5,
+  },
+  smsIcon: {
+    alignItems: 'center',
+    bottom: 10,
+  },
+  buttonContainer: {
+    marginTop: 20,
+  },
+  button: {
+    backgroundColor: '#888888',
+    borderRadius: 3,
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 72,
+    width: 358,
+    fontFamily: 'Poppins',
+    padding: 20,
+    fontWeight: '600',
+    color: '#fff',
+    lineHeight: 24,
+    textAlign: 'center',
+  },
+  placeholder: {
+    fontSize: 20,
+    fontWeight: '600',
+    color: '#fff',
+    lineHeight: 30,
+  },
+});
+
+export default style;
